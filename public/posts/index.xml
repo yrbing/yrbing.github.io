@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Robin Young</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Robin Young</description>
+    <image>
+      <title>Robin Young</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 17 Dec 2025 16:07:43 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/posts/about-me/</link>
+      <pubDate>Wed, 17 Dec 2025 16:07:43 +0800</pubDate>
+      <guid>http://localhost:1313/posts/about-me/</guid>
+      <description>&lt;p&gt;Hello and welcome👋 !&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m a &lt;strong&gt;senior front-end engineer&lt;/strong&gt; with over &lt;strong&gt;7 years&lt;/strong&gt; of experience building products and leading teams at leading tech companies (ByteDance and Xiaomi).&lt;/p&gt;
+&lt;p&gt;My expertise lies in designing architectures and optimizing performance for complex mobile apps (H5, Hybrid, React Native).&lt;/p&gt;
+&lt;p&gt;I have deep hands-on experience with React, TypeScript, and cross-platform tech stacks, and I enjoy using solid engineering practices and performance tuning to create smoother experiences for users and help teams ship better products, faster.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
