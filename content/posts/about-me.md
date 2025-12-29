@@ -4,7 +4,7 @@ draft: false
 title: 'About Me'
 
 cover:
-  image: 'images/my-skills.png'
+  image: 'images/cover-my-skills.png'
   alt: 'My Skill Set' # alt text
   caption: '<text>' # display caption under cover
   relative: false # when using page bundles set this to true
