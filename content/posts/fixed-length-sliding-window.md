@@ -9,6 +9,8 @@ cover:
   alt: 'fixed length sliding window' # alt text
   caption: '<text>' # display caption under cover
   relative: false # when using page bundles set this to true
+
+math: true
 ---
 
 ## One Classic Problem
@@ -25,9 +27,9 @@ Given an integer array `nums` consisting of `n` elements, and an integer `k
 
 **Constraints:**
 
-- `n == nums.length`
-- `1 <= k <= n <= 105`
-- `-104 <= nums[i] <= 104`
+- $n == nums.length$
+- $1 <= k <= n <= 10^5$
+- $-10^4 <= nums[i] <= 10^4$
 
 ### Brute Force Approach
 
@@ -62,10 +64,10 @@ This approach uses nested loops. The outer loop runs from `0` to `n - k` (`n - k
 
 **Complexity Analysis:**
 
-- **Time Complexity**: O(n × k)
-  - Outer loop: O(n) iterations
-  - Inner loop: O(k) iterations per outer loop
-- **Space Complexity:** O(1) - Only a few variables are used regardless of input size
+- **Time Complexity**: $O(n × k)$
+  - Outer loop: $O(n)$ iterations
+  - Inner loop: $O(k)$ iterations per outer loop
+- **Space Complexity:** $O(1)$ - Only a few variables are used regardless of input size
 
 **Why is this inefficient?** Many elements are summed multiple times. For example, in the array `[2, 1, 5, 1, 3, 2`] with `k = 3`:
 
@@ -94,8 +96,6 @@ Observe that when the window slides, only one element changes: a new element ent
 2. Adding the new element that just entered
 
 ![](images/sliding-window-two-loop.png)
-
-{{ $image := resources.Get "images/sliding-window-two-loop.png" }}
 
 ```javascript
 const findMaxSum = function (nums, k) {
@@ -172,8 +172,8 @@ const findMaxSum = function (nums, k) {
 
 **Complexity Analysis:**
 
-- **Time Complexity:** O(n) - Single pass through the array with constant-time operations per element
-- **Space Complexity:** O(1) - Only a few variables used
+- **Time Complexity:** $O(n)$ - Single pass through the array with constant-time operations per element
+- **Space Complexity:** $O(1)$ - Only a few variables used
 
 ### **The Fixed-Length Sliding Window Pattern🤩**
 
