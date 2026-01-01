@@ -17,7 +17,14 @@ Hugo supports LaTeX math rendering via third-party JavaScript libraries, with [M
 
 The implementation is simple: include the library in the `<head>` section. However, to optimize performance, we'll load it conditionally—only on pages that actually need it.
 
-$$\color{orange}{\oint_C f(z) \, dz = 2\pi i \sum_{k=1}^n \text{Res}(f, z_k)}$$
+$$
+\color{#c7c3c3} {
+  \begin{pmatrix}
+      1 & 2 \\\
+      3 & 4
+  \end{pmatrix}
+}
+$$
 
 ### 1. Create a Partial for KaTeX Assets
 
@@ -91,9 +98,12 @@ Extend the configuration in your `math.html` partial:
 
 Now you’re all set 🎉 ! Use `$$...$$` for block math and `$...$` for inline math in your Hugo posts.
 
-**Examples:**
-
 - `$E = mc^2$` → $E = mc^2$
-- `$$\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}$$` → $$\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}$$
+
+- `$\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}$` → $\int_{-\infty}^{\infty} e^{-x^2} \, dx = \sqrt{\pi}$
+
+- `$$\underbrace{a}\_{b} - \underbrace{c}_{d}$$` → $$\underbrace{a}\_{b} - \underbrace{c}_{d}$$
+
+- `$$\color{orange}{\oint_C f(z) \, dz = 2\pi i \sum_{k=1}^n \text{Res}(f, z_k)}$$` → $$\color{orange}{\oint_C f(z) \, dz = 2\pi i \sum_{k=1}^n \text{Res}(f, z_k)}$$
 
 Have fun!
