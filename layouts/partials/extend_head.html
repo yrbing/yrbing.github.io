@@ -1,2 +1,9 @@
-{{ if or .Params.math .Site.Params.math }} {{ partial "helpers/math.html" . }}
+{{ if or .Params.math .Site.Params.math }} 
+  {{ partial "helpers/math.html" . }}
 {{ end }}
+
+<!-- Load only when swiper shortcode is detected -->
+{{ if .HasShortcode "swiper" }} 
+  {{ partial "helpers/swiper.html" . }} 
+{{ end }}
+

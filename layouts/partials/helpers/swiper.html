@@ -1,0 +1,58 @@
+<!-- 1. Styles: Placed in Head to ensure proper layout before images load -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+/>
+<style>
+  .mySwiper {
+    margin: 2em 0;
+    width: 100%;
+    aspect-ratio: 16 / 9; 
+    background: #eee;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  .swiper-slide img {
+    margin: 0;
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+    display: block; 
+  }
+</style>
+
+<!-- 2. Scripts: Added 'defer' to prevent blocking HTML rendering -->
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"
+></script>
+
+<!-- 3. Init Script -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    new Swiper('.mySwiper', {
+      direction: 'horizontal',
+      autoHeight: true, 
+      loop: true,
+      
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+    })
+  })
+</script>
