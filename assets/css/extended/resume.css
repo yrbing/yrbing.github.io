@@ -1,0 +1,24 @@
+/* Copy Button */
+.copy-email-btn {
+  margin-left: 10px;
+  padding: 2px 6px;
+
+  color: var(--content);
+  font-size: 12px;
+  background: var(--code-bg);
+  border: 1px solid var(--tertiary);
+  border-radius: 4px;
+
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.copy-email-btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 10px rgb(from var(--primary) r g b / 0.1);
+}
+
+.copy-email-btn.copy-success {
+  color: #28a745 !important;
+  border-color: #28a745 !important;
+}

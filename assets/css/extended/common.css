@@ -1,0 +1,50 @@
+:root {
+  /* Brand Color */
+  --brand-light: #ff8787;
+  --brand-main: #fa5252;
+  --brand-dark: #e03131;
+
+  --brand-gradient: linear-gradient(
+    135deg,
+    #ff8787 0%,
+    #fa5252 50%,
+    #e03131 100%
+  );
+
+  --brand-glow: rgba(250, 82, 82, 0.4);
+}
+
+:root[data-theme='dark'] {
+  --brand-light: #ffc9c9;
+  --brand-main: #ff8787;
+  --brand-dark: #fa5252;
+
+  --brand-gradient: linear-gradient(135deg, #ff8787 0%, #fa5252 100%);
+
+  --brand-glow: rgba(255, 135, 135, 0.6);
+}
+
+/* Seleted Text Color */
+::selection {
+  background: var(--brand-main);
+  color: #fff;
+}
+
+/* Custom Read Progress */
+#read-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: var(--brand-gradient);
+  box-shadow: var(--brand-glow);
+  z-index: 10000;
+
+  /* Using [transform] instead of [width] performs better (GPU acceleration). */
+  transform-origin: left;
+  transform: scaleX(0); /* Init State */
+
+  will-change: transform;
+  transition: transform 0.1s ease-out;
+}

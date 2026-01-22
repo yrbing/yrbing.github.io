@@ -1,3 +1,11 @@
+<!-- layouts/partials/extend_head.html -->
+
+<!-- Custom Read Progress -->
+{{- if .IsPage -}}
+  <div id="read-progress"></div>
+{{- end -}}
+
+
 {{ if or .Params.math .Site.Params.math }} 
   {{ partial "helpers/math.html" . }}
 {{ end }}

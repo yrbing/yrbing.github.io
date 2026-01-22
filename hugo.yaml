@@ -60,25 +60,22 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Hi, I'm <span class='name-gradient'>Robin</span> \U0001F44B"
     Content: >
-      Hey! I'm Robin. Welcome to my little corner of the web! My interests are all over the map, and so is my writing — from tech deep dives to random curiosities.
+      Front-end Engineer & multi-passionate creator.
 
-      - Want to know more? The story starts [here](/posts/about-me/).
+      - [Meet me & Explore my resume →](/about)
 
   socialIcons:
     - name: github
       title: Find Me on Github
       url: 'https://github.com/yrbing'
-    # - name: email
-    #   title: Send Me an Email
-    #   url: '-'
-  #   - name: x
-  #     url: 'https://x.com/'
-  #   - name: stackoverflow
-  #     url: 'https://stackoverflow.com'
-  #   - name: github
-  #     url: 'https://github.com/'
+    - name: linkedin
+      title: Working on it
+      url: '...'
+    - name: email
+      title: Send Me an Email
+      url: 'mailto:&#114;&#111;&#098;&#105;&#110;&#121;&#111;&#117;&#110;&#103;&#048;&#050;&#057;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;'
 
   # analytics:
   #   google:
@@ -88,15 +85,15 @@ params:
   #   yandex:
   #     SiteVerificationTag: 'XYZabc'
 
-  # cover:
-  #   hidden: true # hide everywhere but not in structured data
-  #   hiddenInList: true # hide on list pages and home
-  #   hiddenInSingle: true # hide on single page
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
 
-  # editPost:
-  #   URL: 'https://github.com/<path_to_repo>/content'
-  #   Text: 'Suggest Changes' # edit text
-  #   appendFilePath: true # to append file path to Edit link
+  editPost:
+    URL: 'https://github.com/yrbing/yrbing.github.io/blob/main/content/'
+    Text: 'Suggest Changes' # edit text
+    appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -112,26 +109,25 @@ params:
 
 menu:
   main:
+    - name: '🚀 Whoami'
+      url: '/about/'
+      weight: 10
     - identifier: archives
       name: Archive
       url: /archives/
-      weight: 10
+      weight: 20
     - identifier: categories
       name: Categories
       url: /categories/
-      weight: 10
+      weight: 30
     - identifier: tags
       name: Tags
       url: /tags/
-      weight: 20
-    - identifier: about-me
-      name: About Me
-      url: /posts/about-me/
-      weight: 30
+      weight: 40
     - identifier: wiki
       name: WiKi
       url: https://github.com/yrbing/yrbing.github.io
-      weight: 30
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

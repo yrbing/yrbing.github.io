@@ -1,0 +1,55 @@
+/* Homepage Name Gradient Effect */
+.name-gradient {
+  display: inline-block;
+  background: var(--brand-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  background-size: 200% 200%;
+
+  animation: gradient-shift 5s ease infinite;
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Enhance Homepage Link to Whoami */
+.home-info .entry-content a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 12px;
+  border: 1.5px solid var(--secondary);
+  border-radius: 6px;
+  color: var(--secondary);
+  font-weight: 600;
+  text-decoration: underline;
+
+  transition: all 0.3s ease;
+}
+
+.home-info .entry-content a:hover {
+  color: var(--theme);
+  background: var(--secondary);
+  transform: translateX(5px);
+}
+
+/* Gradient Effect for First Post Title */
+.first-entry + .post-entry .entry-header h2 {
+  background: var(--brand-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}

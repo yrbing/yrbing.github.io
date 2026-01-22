@@ -1,0 +1,71 @@
+/* Decorate Post Img */
+.post-content img {
+  border-radius: 8px;
+  transition:
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 0.3s;
+}
+
+.post-content img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  cursor: zoom-in;
+}
+
+/* Decorate Post HREF */
+.post-content a[href^='http']:not([href*='yourdomain.com'])::after {
+  content: ' ↗';
+  font-size: 12px;
+  vertical-align: super;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.post-content a[href^='http']:hover::after {
+  opacity: 1;
+}
+
+/* Decorate Post Code */
+.post-content .highlight-wrapper {
+  position: relative;
+  padding-top: 25px;
+  background: var(--code-block-bg);
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.post-content .highlight-wrapper::before {
+  content: attr(data-lang);
+  position: absolute;
+  top: 0;
+  left: 15px;
+  padding: 2px 8px;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: var(--secondary);
+  background: var(--tertiary);
+  border-radius: 0 0 4px 4px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.post-content .highlight-wrapper .copy-code {
+  top: -30px;
+}
+
+/* Decorate Blockquote */
+.post-content blockquote {
+  border-color: var(--brand-main);
+}
+
+/* Decorate Post List */
+.post-content ul li:hover {
+  transform: translateX(5px);
+  transition: all 0.2s ease;
+}
+
+/* Decorate Post Tags */
+.post-footer .post-tags a {
+  color: var(--theme);
+  background: var(--brand-light);
+}

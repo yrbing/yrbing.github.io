@@ -1,0 +1,38 @@
+{{ $user := .Get "user" }}
+{{ $domain := .Get "domain" }}
+<span id="em-wrap-{{ $user }}"> [Loading...] </span>
+
+<script>
+  (function() {
+    const u = "{{ $user }}", d = "{{ $domain }}";
+    const full = u + "@" + d;
+    const wrap = document.getElementById('em-wrap-{{ $user }}');
+
+    // 1. Create Link
+    const a = document.createElement('a');
+    a.href = 'mailto:' + full;
+    a.innerText = full;
+
+    // 2. Creat Copy Button
+    const btn = document.createElement('button');
+    btn.innerHTML = 'Copy';
+    btn.className = 'copy-email-btn'; // 样式来自 custom.css
+    
+    // 3. Copy Email
+    btn.onclick = () => {
+      navigator.clipboard.writeText(full).then(() => {
+        btn.innerHTML = 'Copied!';
+        btn.classList.add('copy-success');
+        setTimeout(() => {
+          btn.innerHTML = 'Copy';
+          btn.classList.remove('copy-success');
+        }, 2000);
+      });
+    };
+
+    // Render HTML
+    wrap.innerHTML = '';
+    wrap.appendChild(a);
+    wrap.appendChild(btn);
+  })();
+</script>

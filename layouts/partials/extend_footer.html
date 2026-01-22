@@ -1,0 +1,28 @@
+{{- if .IsPage -}}
+  <script>
+    (function() {
+      const bar = document.getElementById("read-progress");
+      if (!bar) return;
+
+      let ticking = false;
+
+      const updateProgress = () => {
+        const winScroll = window.pageYOffset || document.documentElement.scrollTop;
+        const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+        const scrolled = height > 0 ? (winScroll / height) : 0;
+        
+        // Using transform: [scaleX] significantly outperforms [width] because it is processed on the GPU layer.
+        bar.style.transform = `scaleX(${scrolled})`;
+        ticking = false;
+      };
+
+      window.addEventListener('scroll', function() {
+        if (!ticking) {
+          // Optimize with requestAnimationFrame to prevent lag caused by frequent scroll events.
+          window.requestAnimationFrame(updateProgress);
+          ticking = true;
+        }
+      }, { passive: true });
+    })();
+  </script>
+{{- end -}}
