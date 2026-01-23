@@ -1,14 +1,12 @@
 ---
-date: '2025-12-17T16:07:43+08:00'
-draft: false
 title: 'About Me & Resume'
-url: '/About'
-
 layout: 'page'
-comments: false
-hidemeta: true
-showToc: false
-TocOpen: false
+# url: '/about'
+
+# comments: false
+# hidemeta: true
+# showToc: false
+# TocOpen: false
 ---
 
 ![](images/cover-my-skills.png)
