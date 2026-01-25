@@ -40,6 +40,8 @@ editPost:
   appendFilePath: true # to append file path to Edit link
 ---
 
+{{< wordcloud dataSource="wordcloud" >}}
+
 ## Introduction
 
 Raw Mathjax block:

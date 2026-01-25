@@ -1,0 +1,65 @@
+<!-- CDN -->
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-cloud/1.2.7/d3.layout.cloud.min.js"></script>
+
+<script>
+  (function() {
+      const renderAllClouds = () => {
+          const containers = document.querySelectorAll('.d3-word-cloud-container');
+          if (!containers.length || typeof d3 === 'undefined' || !d3.layout.cloud) return;
+
+          containers.forEach(container => {
+              const rawData = container.getAttribute('data-words');
+              if (!rawData) return;
+              
+              const data = JSON.parse(rawData);
+              const width = container.offsetWidth || 600;
+              const height = 400;
+
+              d3.layout.cloud()
+                  .size([width, height])
+                  .words(data.map(d => ({ text: d.name, size: 10 + d.value * 5 })))
+                  .padding(5)
+                  .rotate(() => (~~(Math.random() * 2) * 90))
+                  .fontSize(d => d.size)
+                  .on("end", (words) => {
+                      d3.select("#" + container.id).selectAll("*").remove();
+                      d3.select("#" + container.id).append("svg")
+                          .attr("width", "100%")
+                          .attr("height", height)
+                          .attr("viewBox", `0 0 ${width} ${height}`)
+                          .append("g")
+                          .attr("transform", `translate(${width/2},${height/2})`)
+                          .selectAll("text")
+                          .data(words)
+                          .enter().append("text")
+                          .style("font-size", d => d.size + "px")
+                          // .style("fill", () => d3.schemeCategory10[Math.floor(Math.random() * 10)])
+                          // Brand color
+                          .style("fill", "var(--brand-main)") 
+                          .style("opacity", () => 0.5 + Math.random() * 0.5)
+                          .attr("text-anchor", "middle")
+                          .attr("transform", d => `translate(${d.x},${d.y})rotate(${d.rotate})`)
+                          .text(d => d.text)
+                          // Interaction
+                          .style("cursor", "pointer")
+                          .style("transition", "all 0.2s ease-out")
+                          .on("mouseover", function (event, d) {
+                              d3.select(this)
+                                  .style("opacity", "1")
+                                  .attr("transform", `translate(${d.x},${d.y})rotate(${d.rotate}) scale(1.2)`);
+                          })
+                          .on("mouseout", function (event, d) {
+                              d3.select(this)
+                                  .style("opacity", () => 0.4 + Math.random() * 0.6)
+                                  .attr("transform", `translate(${d.x},${d.y})rotate(${d.rotate}) scale(1)`);
+                          })
+                  })
+                  .start();
+          });
+      };
+
+      // Event listener​
+      window.addEventListener('load', renderAllClouds);
+  })();
+</script>

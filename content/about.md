@@ -9,7 +9,7 @@ layout: 'page'
 # TocOpen: false
 ---
 
-![](images/cover-my-skills.png)
+{{< wordcloud dataSource="skills" >}}
 
 **Hello, I'm Robin 👋**
 

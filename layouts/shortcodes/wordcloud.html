@@ -1,0 +1,9 @@
+{{- $dataSource := .Get "dataSource" | default "wordcloud" -}}
+{{- $data := index .Site.Data $dataSource -}}
+
+<!-- 将 JSON 数据序列化后存入 data-words 属性 -->
+<div class="d3-word-cloud-container" 
+     id="wc-{{ .Ordinal }}"
+     data-words='{{ $data | jsonify }}' 
+     style="width: 100%; min-height: 400px; margin: 10px 0">
+</div>

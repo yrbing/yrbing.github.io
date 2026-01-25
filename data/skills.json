@@ -1,0 +1,82 @@
+[
+  {
+    "name": "front-end",
+    "value": 15
+  },
+  {
+    "name": "Javascript",
+    "value": 14
+  },
+  {
+    "name": "Typescript",
+    "value": 13
+  },
+  {
+    "name": "React",
+    "value": 10
+  },
+  {
+    "name": "Css",
+    "value": 8
+  },
+  {
+    "name": "Html",
+    "value": 7
+  },
+  {
+    "name": "Performance",
+    "value": 7
+  },
+  {
+    "name": "Git",
+    "value": 6
+  },
+  {
+    "name": "React Native",
+    "value": 6
+  },
+  {
+    "name": "Node.js",
+    "value": 6
+  },
+  {
+    "name": "Webpack",
+    "value": 6
+  },
+  {
+    "name": "Babel",
+    "value": 5
+  },
+  {
+    "name": "Algorithm",
+    "value": 5
+  },
+  {
+    "name": "Responsive Design",
+    "value": 3
+  },
+  {
+    "name": "Testing",
+    "value": 3
+  },
+  {
+    "name": "Photography",
+    "value": 3
+  },
+  {
+    "name": "Writing",
+    "value": 3
+  },
+  {
+    "name": "Ballet",
+    "value": 3
+  },
+  {
+    "name": "Chess",
+    "value": 3
+  },
+  {
+    "name": "Gym",
+    "value": 3
+  }
+]

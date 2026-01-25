@@ -1,4 +1,4 @@
-{{- if .IsPage -}}
+{{ if .IsPage }}
   <script>
     (function() {
       const bar = document.getElementById("read-progress");
@@ -25,4 +25,9 @@
       }, { passive: true });
     })();
   </script>
-{{- end -}}
+{{ end }}
+
+<!-- Load only when wordcloud shortcode is detected -->
+{{ if .HasShortcode "wordcloud" }} 
+  {{ partial "helpers/wordcloud.html" . }} 
+{{ end }}
