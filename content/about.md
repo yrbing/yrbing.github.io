@@ -13,7 +13,7 @@ layout: 'page'
 
 **Hello, I'm Robin 👋**
 
-I am a **Senior Front-end Engineer** with over **7 years** of experience crafting high-performance digital products. My career has been shaped by leading teams and architecting complex systems at industry leaders like **ByteDance** and **Xiaomi**.
+I am a **Senior Front-end Engineer** with over **7 years** of experience crafting high-performance digital products. My career has been shaped by leading teams and architecting complex systems at industry leaders like **ByteDance(TikTok)** and **Xiaomi**.
 
 I believe that **code is the bridge between human imagination and digital reality.** For me, engineering is not just about solving tickets; it’s about using technology to build seamless, intuitive experiences that empower users.
 
@@ -36,19 +36,19 @@ I am a **multi-passionate creator** who thrives on learning new things. When I�
 
 > **Looking for my professional background?**
 > You can find my full resume below. If you're interested in my work experience or would like to discuss potential collaborations, feel free to [jump to the experience section](#-professional-experience) or [reach out directly](#-get-in-touch).
-
-<!-- > [📥 Download PDF Version](/resume.pdf) -->
+>
+> [📥 Download PDF Version](/Robin_Yang_CV.pdf)
 
 ---
 
-# Robin Young
+# Ruobing (Robin) Yang
 
 **Senior Front-end Engineer**  
 📍 Auckland, New Zealand
 
 ## 🚀 Summary
 
-Senior Front-end Developer with **7+ years** of experience building scalable web applications. Proficient in **React** ecosystems and focused on **Web Performance** ⚡ and **UX/UI** 🎨. Active open-source contributor and technical blogger.
+Senior Front-end Developer with **7+ years** of experience at industry leaders including ByteDance(TikTok) and Xiaomi. Expert in architecting high-concurrency web applications within the **React ecosystem**, with a specialized focus on **Web Performance optimization** ⚡ and **seamless UX/UI integration** 🎨. Active technical blogger dedicated to sharing cutting-edge web standards and mentoring engineering teams.
 
 ## 🛠 Technical Skills
 
@@ -133,8 +133,8 @@ This journey has honed my ability to manage complex goals in "non-standard" envi
 > "Life is not a problem to be solved, but an experience to be had."
 
 **Currently based in Auckland, New Zealand 📍**  
-Available for collaboration, consulting, or just a virtual coffee.
+I’m currently looking for my next challenge. Feel free to reach out.
 
-**Email**: {{< email user="robinyoung029" domain="gmail.com" >}}
+**📧 Email**: {{< email user="robinyoung029" domain="gmail.com" >}}
 
----
+[🐙 GitHub](https://github.com/yrbing) | [📥 Download Resume (PDF)](/Robin_Yang_CV.pdf)
