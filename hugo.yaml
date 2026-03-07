@@ -1,6 +1,6 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: Robin Young
+title: Robin Yang
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -18,10 +18,10 @@ caches:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: Robin Young
-  description: 'The Blog of Robin Young'
+  title: Robin Yang
+  description: 'The Blog of Robin Yang'
   keywords: [Blog, Portfolio]
-  author: Robin Young
+  author: Robin Yang
   # author: ["Me", "You"] # multiple authors
   images: ['<link or path of image for opengraph, twitter-cards>']
   # DateFormat: 'January 2, 2012'
@@ -54,7 +54,7 @@ params:
     safari_pinned_tab: '<link / abs url>'
 
   label:
-    text: 'Robin Young'
+    text: 'Robin Yang'
     # icon: /apple-touch-icon.png
     iconHeight: 35
 

@@ -135,6 +135,6 @@ This journey has honed my ability to manage complex goals in "non-standard" envi
 **Currently based in Auckland, New Zealand 📍**  
 I’m currently looking for my next challenge. Feel free to reach out.
 
-**📧 Email**: {{< email user="robinyoung029" domain="gmail.com" >}}
+**📧 Email**: {{< email user="robinyang029" domain="gmail.com" >}}
 
 [🐙 GitHub](https://github.com/yrbing) | [📥 Download Resume (PDF)](/Robin_Yang_CV.pdf)
