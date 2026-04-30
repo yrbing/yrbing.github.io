@@ -1,0 +1,20 @@
+[
+  {
+    "id": "chess",
+    "title": "Chess Game",
+    "tagline": "Practice chess against Stockfish — with hints that actually explain the right move.",
+    "demo": "https://everyone-chess.vercel.app/",
+    "github": "https://github.com/yrbing/everyone-chess",
+    "image": "images/projects/screenshot_chess.png",
+    "stack": ["React 19", "TypeScript", "Vite", "Stockfish (WASM)", "Vercel"]
+  },
+  {
+    "id": "blog",
+    "title": "Personal Portfolio / Blog",
+    "tagline": "This site — Hugo + PaperMod with custom shortcodes, brand theming, and CI/CD.",
+    "demo": "https://yrbing.github.io/",
+    "github": "https://github.com/yrbing/yrbing.github.io",
+    "image": "images/projects/screenshot_blog.png",
+    "stack": ["Hugo", "PaperMod", "D3.js", "GitHub Actions"]
+  }
+]

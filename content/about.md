@@ -69,8 +69,6 @@ Senior Front-end Developer with **7+ years** of experience at industry leaders i
 
 ### **Senior Front-end Engineer** | ByteDance
 
-_2019.04 – 2023.08_
-
 _Led the frontend team for Douyin's consumer finance core business, responsible for technical architecture, engineering systems, and team development._
 
 - **Architecture Migration**: Spearheaded the transition from legacy Vue to **React + TS**, boosting page performance by 20% and feature iteration speed by 35%.
@@ -82,18 +80,26 @@ _Led the frontend team for Douyin's consumer finance core business, responsible 
 
 ### **Front-end Engineer** | Xiaomi
 
-_2016.04 – 2019.04_
-
 - **Cloud Infrastructure**: Core Developer for the **Xiaomi Cloud Management Platform**; engineered high-concurrency consoles and orchestration tools to manage large-scale cloud resources efficiently.
 - **Architecture Modernization**: Led the transition from legacy **AngularJS** to **React**, implementing **GraphQL** for efficient data fetching; refactored core modules and slashed maintenance costs by 40%.
 - **Hybrid Ecosystem**: Delivered high-traffic modules and campaign pages using **React Native & Hybrid**, ensuring 99.9% release stability during peak shopping festivals.
 
 ## 📂 Featured Projects
 
-### **[Personal Portfolio / Blog](https://yrbing.github.io/)** | _Hugo, PaperMod, GitHub Actions_
+{{< project-card id="chess" >}}
+> **Why I built it:** I picked up chess two months ago on Duolingo. Playing against their AI Oscar, I only ever learned the outcome — win, lose, or draw — never _why_ a move was good or bad. The analysis sites I tried buried beginners in jargon. So I built my own chess app: an opponent I can practice against, with hints that actually explain the right move. The goal is simple — for every beginner to understand their moves.
 
-- 🎨 Brand & UX: Tailored theme aesthetics and interaction logic with custom CSS/JS for a personalized brand experience.
-- 🚀 CI/CD: Streamlined deployment via GitHub Actions, ensuring high availability and seamless content updates.
+- ♟️ **AI Opponent:** Integrated Stockfish (WASM) in a Web Worker, exposing three difficulty tiers (~400 / ~1500 / ~2800 Elo) via `UCI_LimitStrength` and configurable search depth.
+- 🧠 **Game Engine:** Wrapped `chess.js` in a custom `useChessGame` hook to manage move validation, SAN history, undo, and end-state detection (check / checkmate / draw).
+- 💡 **Player UX:** Built hint suggestions, captured-piece tracking, two-player pass-and-play mode, and a scrubbable move history for post-game review.
+- 🎨 **Theming:** Designed light/dark UI modes plus six board color schemes, persisted in `localStorage` and applied via `data-theme` and CSS variables.
+{{< /project-card >}}
+
+{{< project-card id="blog" >}}
+- 🎨 **Brand & UX:** Tailored theme aesthetics and interaction logic with custom CSS/JS for a personalized brand experience.
+- 🚀 **CI/CD:** Streamlined deployment via GitHub Actions, ensuring high availability and seamless content updates.
+- 🧩 **Custom Shortcodes:** Built a D3-powered word-cloud shortcode and a Swiper carousel shortcode reused across posts.
+{{< /project-card >}}
 
 ## 🎓 Education
 

@@ -1,0 +1,51 @@
+{{- $id := .Get "id" -}}
+{{- $project := where site.Data.projects "id" $id | first 1 -}}
+{{- with index $project 0 -}}
+<section class="project-card">
+  <a class="project-preview" href="{{ .demo }}" target="_blank" rel="noopener" aria-label="Open {{ .title }} in a new tab">
+    {{- with .image -}}
+      {{- $src := resources.Get . -}}
+      {{- if $src -}}
+        {{- $src = $src | fingerprint -}}
+        <img src="{{ $src.RelPermalink }}"
+             alt="{{ $.Get "id" }} screenshot"
+             width="{{ $src.Width }}"
+             height="{{ $src.Height }}"
+             loading="lazy"
+             decoding="async" />
+      {{- else -}}
+        {{- errorf "project-card: image %q not found in assets/" . -}}
+      {{- end -}}
+    {{- else -}}
+    <div class="project-preview-placeholder">
+      <span>{{ .title }}</span>
+    </div>
+    {{- end -}}
+    <span class="project-preview-hint">Open live <span aria-hidden="true">↗</span></span>
+  </a>
+
+  <div class="project-body">
+    <h3 class="project-title"><span class="name-gradient">{{ .title }}</span></h3>
+    <p class="project-tagline">{{ .tagline }}</p>
+
+    <ul class="project-stack" aria-label="Tech stack">
+      {{- range .stack -}}
+      <li>{{ . }}</li>
+      {{- end -}}
+    </ul>
+
+    <div class="project-detail">
+      {{ $.Inner | $.Page.RenderString }}
+    </div>
+
+    <div class="project-ctas">
+      <a class="project-cta project-cta-primary" href="{{ .demo }}" target="_blank" rel="noopener">
+        Visit site <span aria-hidden="true">↗</span>
+      </a>
+      <a class="project-cta project-cta-secondary" href="{{ .github }}" target="_blank" rel="noopener">
+        GitHub
+      </a>
+    </div>
+  </div>
+</section>
+{{- end -}}
