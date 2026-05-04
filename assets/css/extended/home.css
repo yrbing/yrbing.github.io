@@ -38,10 +38,37 @@
   transition: all 0.3s ease;
 }
 
-.home-info .entry-content a:hover {
-  color: var(--theme);
-  background: var(--secondary);
-  transform: translateX(5px);
+@media (hover: hover) and (pointer: fine) {
+  .home-info .entry-content a:hover {
+    color: var(--theme);
+    background: var(--secondary);
+    transform: translateX(5px);
+  }
+}
+
+@media (max-width: 768px) {
+  .home-info .entry-header h1 {
+    font-size: 28px;
+    line-height: 1.25;
+  }
+
+  .home-info .entry-content a {
+    padding: 8px 14px;
+    min-height: 40px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  .home-info .entry-footer {
+    flex-wrap: wrap;
+    row-gap: 0.4rem;
+  }
+}
+
+@media (max-width: 340px) {
+  .home-info .entry-header h1 {
+    font-size: 24px;
+  }
 }
 
 /* Gradient Effect for First Post Title */
