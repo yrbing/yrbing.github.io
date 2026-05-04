@@ -1,56 +1,32 @@
 # Robin's Blog
 
-A personal blog and portfolio site by Robin Yang, built with [Hugo](https://gohugo.io/) and the [PaperMod](https://github.com/adityatelange/hugo-PaperMod) theme.
+Hi, I'm **Robin Yang** — a Senior Front-end Engineer based in Auckland, New Zealand, with 7+ years of experience at companies like ByteDance (TikTok) and Xiaomi. This is my corner of the web for sharing what I learn.
 
-## Getting started
+[**Visit the blog →**](https://yrbing.github.io/)
 
-Prerequisites: [Hugo](https://gohugo.io/installation/) (extended) and Git.
+![Screenshot of Robin's Blog](./assets/images/projects/screenshot_blog.png)
 
-```sh
-git clone --recurse-submodules https://github.com/yrbing/yrbing.github.io.git
-cd robin-blog
-hugo server -D
-```
+## What you'll find here
 
-The site will be available at http://localhost:1313. The `-D` flag includes draft posts.
+I write about the things I think about most as a frontend engineer:
 
-## Writing
+- **Algorithms & problem solving** — deep-dives that trade jargon for intuition. Currently working through a sliding-window series.
+- **Hugo & web tooling** — practical guides on building a fast, customizable static site, from math typesetting to custom shortcodes.
+- **Modern frontend engineering** — notes on React, TypeScript, performance, and the patterns I rely on day to day.
 
-Create a new post:
+## Featured series: Sliding Window
 
-```sh
-hugo new posts/my-new-post.md
-```
+A three-part walkthrough of one of the most useful patterns in algorithm interviews — and how to recognize when it applies.
 
-Posts live in `content/posts/`. Front matter follows the PaperMod conventions — see existing posts for examples.
+1. [**How to Solve Fixed-Length Sliding Window Problems**](https://yrbing.github.io/posts/fixed-length-sliding-window/) — the foundational pattern.
+2. [**Reverse Thinking With Fixed-Length Sliding Window**](https://yrbing.github.io/posts/backward-thinking-with-sliding-window/) — when flipping the problem unlocks the solution.
+3. [**The Core Patterns of Variable-Length Sliding Window**](https://yrbing.github.io/posts/variable-length-sliding-window/) — longest and shortest subarrays.
 
-## Tag word cloud
+## Hugo engineering notes
 
-The "About" page renders a word cloud from post tags. After adding or editing tags, regenerate the data file:
+- [**Math Typesetting in Hugo**](https://yrbing.github.io/posts/math-typesetting-in-hugo/) — conditionally loading KaTeX for fast, beautiful equations.
+- [**How to Integrate Swiper.js with Hugo Shortcodes**](https://yrbing.github.io/posts/add-swiper-to-hugo-shortcodes/) — a reusable image carousel without bloating your markdown.
 
-```sh
-python scripts/generate_tags.py
-```
+## About me
 
-This writes `data/wordcloud.json`, which the homepage reads at build time.
-
-## Project layout
-
-```
-content/      Markdown posts and pages
-layouts/      Theme overrides and custom shortcodes
-assets/       SCSS, JS, and images processed by Hugo Pipes
-static/       Files copied verbatim to the site root
-data/         Build-time data (e.g. wordcloud.json)
-scripts/      Helper scripts
-themes/       PaperMod theme (git submodule)
-hugo.yaml     Site configuration
-```
-
-## Building for production
-
-```sh
-hugo --minify
-```
-
-The static site is generated into `public/`.
+The [**About page**](https://yrbing.github.io/about/) has my full resume, featured projects ([Everyone Chess](https://everyone-chess.vercel.app/) — a React 19 + Stockfish WASM trainer), and a bit about life beyond the editor.
