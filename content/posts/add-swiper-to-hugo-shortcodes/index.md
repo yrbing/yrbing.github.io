@@ -2,7 +2,8 @@
 date: '2026-01-10T15:22:57+08:00'
 draft: false
 title: 'How to Integrate Swiper.js with Hugo Shortcodes'
-tags: ['Hugo', 'Swiper', 'Image Carousel']
+tags: ['Hugo', 'Shortcodes', 'Swiper', 'Image Carousel']
+categories: ['Hugo Tips']
 
 cover:
   image: 'images/cover-swiper.gif'

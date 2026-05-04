@@ -2,7 +2,8 @@
 date: '2025-12-29T14:45:52+08:00'
 draft: false
 title: 'Math Typesetting in Hugo'
-tags: ['Hugo', 'Math Typesetting']
+tags: ['Hugo', 'Math Typesetting', 'KaTeX']
+categories: ['Hugo Tips']
 
 math: true
 

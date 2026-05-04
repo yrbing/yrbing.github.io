@@ -2,7 +2,8 @@
 date: '2026-01-01T17:22:51+08:00'
 draft: false
 title: 'Reverse Thinking With Fixed-Length Sliding Window'
-tags: ['Algorithm', 'Sliding Window', 'Reverse Thinking']
+tags: ['Algorithms', 'Sliding Window', 'Reverse Thinking', 'JavaScript']
+categories: ['Algorithms']
 
 math: true
 

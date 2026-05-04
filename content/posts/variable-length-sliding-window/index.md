@@ -2,7 +2,8 @@
 date: '2026-01-16T17:49:32+08:00'
 draft: false
 title: 'The Core Patterns of Variable-Length Sliding Window: Longest & Shortest Subarrays'
-tags: ['Algorithm', 'Sliding Window']
+tags: ['Algorithms', 'Sliding Window', 'JavaScript']
+categories: ['Algorithms']
 
 cover:
   image: 'images/cover-variable-length-sliding-window.svg'

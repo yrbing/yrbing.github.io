@@ -7,7 +7,8 @@ math: true
 
 # weight: 1
 # aliases: ["/first"]
-tags: ['first']
+tags: ['Demo']
+categories: ['Hugo Tips']
 author: 'Me'
 # author: ["Me", "You"] # multiple authors
 showToc: true

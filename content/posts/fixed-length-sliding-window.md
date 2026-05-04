@@ -2,7 +2,8 @@
 date: '2025-12-24T16:55:18+08:00'
 draft: false
 title: 'How to Solve Fixed-Length Sliding Window Problems!'
-tags: ['Algorithm', 'Sliding Window']
+tags: ['Algorithms', 'Sliding Window', 'JavaScript']
+categories: ['Algorithms']
 
 cover:
   image: 'images/cover-sliding-window.svg'
