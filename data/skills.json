@@ -52,6 +52,70 @@
     "value": 5
   },
   {
+    "name": "Next.js",
+    "value": 5
+  },
+  {
+    "name": "CI/CD",
+    "value": 5
+  },
+  {
+    "name": "SCSS",
+    "value": 4
+  },
+  {
+    "name": "Tailwind CSS",
+    "value": 4
+  },
+  {
+    "name": "Redux",
+    "value": 4
+  },
+  {
+    "name": "Vite",
+    "value": 4
+  },
+  {
+    "name": "GitHub Actions",
+    "value": 4
+  },
+  {
+    "name": "Core Web Vitals",
+    "value": 4
+  },
+  {
+    "name": "Chrome DevTools",
+    "value": 4
+  },
+  {
+    "name": "Bundle Optimization",
+    "value": 4
+  },
+  {
+    "name": "Hybrid App",
+    "value": 4
+  },
+  {
+    "name": "JSBridge",
+    "value": 4
+  },
+  {
+    "name": "GraphQL",
+    "value": 4
+  },
+  {
+    "name": "RESTful APIs",
+    "value": 4
+  },
+  {
+    "name": "WebAssembly",
+    "value": 4
+  },
+  {
+    "name": "Claude Code",
+    "value": 4
+  },
+  {
     "name": "Responsive Design",
     "value": 3
   },
@@ -78,5 +142,93 @@
   {
     "name": "Gym",
     "value": 3
+  },
+  {
+    "name": "styled-components",
+    "value": 3
+  },
+  {
+    "name": "Zustand",
+    "value": 3
+  },
+  {
+    "name": "TanStack Query",
+    "value": 3
+  },
+  {
+    "name": "Rollup",
+    "value": 3
+  },
+  {
+    "name": "Jenkins",
+    "value": 3
+  },
+  {
+    "name": "GitLab CI",
+    "value": 3
+  },
+  {
+    "name": "Code Splitting",
+    "value": 3
+  },
+  {
+    "name": "Tree Shaking",
+    "value": 3
+  },
+  {
+    "name": "Service Workers",
+    "value": 3
+  },
+  {
+    "name": "MongoDB",
+    "value": 3
+  },
+  {
+    "name": "Express",
+    "value": 3
+  },
+  {
+    "name": "Koa",
+    "value": 3
+  },
+  {
+    "name": "WebSocket",
+    "value": 3
+  },
+  {
+    "name": "Docker",
+    "value": 3
+  },
+  {
+    "name": "Hugo",
+    "value": 3
+  },
+  {
+    "name": "Vercel",
+    "value": 3
+  },
+  {
+    "name": "Shopify",
+    "value": 3
+  },
+  {
+    "name": "Figma",
+    "value": 3
+  },
+  {
+    "name": "LLM Prompting",
+    "value": 3
+  },
+  {
+    "name": "Accessibility",
+    "value": 3
+  },
+  {
+    "name": "Liquid",
+    "value": 2
+  },
+  {
+    "name": "Cinema",
+    "value": 2
   }
 ]
