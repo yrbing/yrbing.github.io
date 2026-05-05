@@ -68,7 +68,7 @@ Senior Frontend Engineer with **7+ years** of experience at global tech leaders 
 
 _Mar 2026 – Present_ | [missiongrocer.co.nz](https://www.missiongrocer.co.nz/)
 
-_Improving the e-commerce experience for a local social enterprise using **Shopify** (**Liquid templates**, custom CSS/JS, Shopify CLI)._
+_Applying my senior engineering expertise to support the local community by improving the e-commerce infrastructure for a local social enterprise using Shopify. (Liquid templates, custom CSS/JS, Shopify CLI)._
 
 - **Automated Labeling System:** Recognized manual bottlenecks in product updates; independently architected an automated labeling system to enhance homepage hierarchy and user engagement.
 - **Offline → Online Sign-up Flow:** Observed manual friction in physical market stalls using paper forms; **proposed and implemented** a QR-code-to-DB digital sign-up flow, transitioning users from offline interaction to a streamlined online database, significantly boosting data accuracy and campaign exposure.
@@ -106,9 +106,11 @@ _Led the frontend team for Douyin's consumer finance core business (serving **10
 
 _Apr 2016 – Apr 2019_
 
-- **Cloud Infrastructure**: Core Developer for the **Xiaomi Cloud Management Platform**; engineered high-concurrency consoles and orchestration tools. Containerized development environments using **Docker** to ensure cross-team environment consistency and streamlined local testing.
-- **Architecture Modernization**: Led the transition from legacy **AngularJS** to **React**, implementing **GraphQL** for efficient data fetching; refactored core modules and slashed maintenance costs by 40%.
-- **Hybrid Ecosystem**: Delivered high-traffic modules and campaign pages using **React Native & Hybrid**, ensuring 99.9% release stability during peak shopping festivals.
+_Contributing to the core development of Xiaomi's cloud infrastructure, focusing on delivering high-concurrency management tools and modernizing legacy front-end architectures._
+
+- **Architecture Modernization:** Led the migration from legacy AngularJS to React, implementing GraphQL for efficient data fetching; refactored core modules and slashed maintenance costs by 40%.
+- **Cloud Infrastructure & PaaS:** Core Developer for the Xiaomi Cloud Management Platform; engineered consoles and PaaS orchestration tools, including Container Management systems to manage cloud assets efficiently.
+- **Engineering Efficiency:** Containerized development environments using Docker to ensure cross-team consistency and streamlined local testing.
 
 ## 📂 Featured Projects
 
