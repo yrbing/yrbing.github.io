@@ -109,9 +109,14 @@ params:
 
 menu:
   main:
-    - name: '🚀 Whoami'
+    - identifier: about
+      name: '🚀 Whoami'
       url: '/about/'
       weight: 10
+    - identifier: projects
+      name: '📂 Projects'
+      url: /projects/
+      weight: 15
     - identifier: archives
       name: Archive
       url: /archives/
