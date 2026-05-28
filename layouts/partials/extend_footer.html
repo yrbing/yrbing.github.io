@@ -31,29 +31,3 @@
 {{ if .HasShortcode "wordcloud" }}
   {{ partial "helpers/wordcloud.html" . }}
 {{ end }}
-
-<!-- Mobile menu drawer toggle. The JS only flips two state flags;
-     all show/hide and icon-swap rules live in assets/css/extended/header.css,
-     which reads `.nav[data-menu-open="true"]` via attribute selectors. -->
-<script>
-  (function () {
-    const btn = document.getElementById('menu-toggle');
-    const nav = document.querySelector('.nav');
-    if (!btn || !nav) return;
-
-    btn.addEventListener('click', () => {
-      const open = nav.getAttribute('data-menu-open') === 'true';
-      // data-menu-open drives CSS; aria-expanded mirrors it for screen readers.
-      nav.setAttribute('data-menu-open', String(!open));
-      btn.setAttribute('aria-expanded', String(!open));
-    });
-
-    // Esc closes the drawer — keyboard parity with the close button.
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && nav.getAttribute('data-menu-open') === 'true') {
-        nav.setAttribute('data-menu-open', 'false');
-        btn.setAttribute('aria-expanded', 'false');
-      }
-    });
-  })();
-</script>

@@ -1,5 +1,5 @@
 {{- $id := .Get "id" -}}
-{{- $project := where site.Data.projects "id" $id | first 1 -}}
+{{- $project := where hugo.Data.projects "id" $id | first 1 -}}
 {{- with index $project 0 -}}
 <section class="project-card">
   <a class="project-preview" href="{{ .demo }}" target="_blank" rel="noopener" aria-label="Open {{ .title }} in a new tab">

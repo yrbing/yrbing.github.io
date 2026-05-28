@@ -25,7 +25,7 @@ In this post, I’ll show you how I built a robust, reusable Swiper component us
 We will split the implementation into three clean parts:
 
 - The Partial: A helper for asset management (Styles & Scripts).
-- The Hook: Integrating the helper into your site's <head>.
+- The Hook: Integrating the helper into your site's `<head>`.
 - The Shortcode: The user-friendly Markdown interface.
 
 ### 1. The Asset Helper (`partials/helpers/swiper.html`)

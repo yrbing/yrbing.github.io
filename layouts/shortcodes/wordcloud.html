@@ -1,5 +1,5 @@
 {{- $dataSource := .Get "dataSource" | default "wordcloud" -}}
-{{- $data := index .Site.Data $dataSource -}}
+{{- $data := index hugo.Data $dataSource -}}
 
 <!-- 将 JSON 数据序列化后存入 data-words 属性 -->
 <div class="d3-word-cloud-container" 
