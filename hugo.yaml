@@ -113,18 +113,14 @@ menu:
       name: '🚀 Whoami'
       url: '/about/'
       weight: 10
-    - identifier: projects
-      name: '📂 Projects'
-      url: /projects/
-      weight: 15
     - identifier: archives
       name: Archive
       url: /archives/
       weight: 20
-    - identifier: categories
-      name: Categories
-      url: /categories/
-      weight: 30
+    # - identifier: categories
+    #   name: Categories
+    #   url: /categories/
+    #   weight: 30
     - identifier: tags
       name: Tags
       url: /tags/
