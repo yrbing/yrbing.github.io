@@ -6,6 +6,8 @@ Hi, I'm **Robin Yang** — a Senior Front-end Engineer based in Auckland, New Ze
 
 ![Screenshot of Robin's Blog](./assets/images/projects/screenshot_blog.png)
 
+> 📝 **How this repo works:** [**Build a Modern Tech Blog: Hugo, GitHub Pages, and Zero-Maintenance CI/CD**](https://yrbing.github.io/posts/build-a-tech-blog-with-hugo-and-github-pages/) walks through the full setup behind this site, from `hugo new project` to the GitHub Actions pipeline that ships every push to `main`.
+
 ## What you'll find here
 
 I write about the things I think about most as a frontend engineer:
@@ -24,6 +26,7 @@ A three-part walkthrough of one of the most useful patterns in algorithm intervi
 
 ## Hugo engineering notes
 
+- [**Build a Modern Tech Blog: Hugo, GitHub Pages, and Zero-Maintenance CI/CD**](https://yrbing.github.io/posts/build-a-tech-blog-with-hugo-and-github-pages/) — the full setup behind this site, from `hugo new project` to a working GitHub Actions pipeline.
 - [**Math Typesetting in Hugo**](https://yrbing.github.io/posts/math-typesetting-in-hugo/) — conditionally loading KaTeX for fast, beautiful equations.
 - [**How to Integrate Swiper.js with Hugo Shortcodes**](https://yrbing.github.io/posts/add-swiper-to-hugo-shortcodes/) — a reusable image carousel without bloating your markdown.
 
