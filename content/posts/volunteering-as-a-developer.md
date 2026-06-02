@@ -12,11 +12,11 @@ cover:
 
 ## The Setup
 
-For the past two months I've volunteered as a web developer for Mission Grocer, a non-profit that makes fresh, healthy food accessible to everyone. My main job is to build the storefront and help staff make better use of their Shopify Admin.
+For the past two months I've volunteered as a developer for Mission Grocer, a non-profit that makes fresh, healthy food accessible to everyone. My main job is to build the storefront and help staff make better use of their Shopify Admin.
 
-I hadn't had any experience with Shopify or any templating language before (except for this blog), and I found that it wasn't an issue. Programming languages are similar enough, as long as you understand how a website works from top to bottom.
+I hadn't had any experience with Shopify or any templating language before (except for this blog), and I found it wasn't an issue. Programming languages are similar enough, as long as you understand how a website works from top to bottom.
 
-I used to think this experience would be just like one of my previous jobs, but it isn't. Before this, I mostly worked with other developers and was mostly responsible for the front-end parts of a business. Now I've developed a comprehensive perspective on the whole business, and my role is kind of like a CTO. This is something new after my years as a developer in big companies, and I really think it changes the way I work.
+I used to think this experience would be just like one of my previous jobs, but it isn't. Before this, I mostly worked with other developers and was mostly responsible for the front-end parts of a business. Now I've developed a comprehensive perspective on the whole business, and my role is kind of like a CTO (yes, I gave myself the title). This is something new after my years as a developer in big companies, and I really think it changes the way I work.
 
 Now I'd like to share the things I've touched and found interesting or useful.
 
@@ -70,7 +70,7 @@ Two months later I've done far more than I expected, because the more I learn ab
 
 In my last job, my superior always asked me to make the front-end plans for the whole team. It's not easy to think through what the team will do three or six months out, so I talked to the Product Managers regularly. They led the way.
 
-But here, no one leads the way for you. Before I joined, the team had no plan for the website; they focused on the physical store and offline marketing, with little experience in online promotion. So now it's on me to spot the needs and act on them, doing the marketing, the product, the development, and the planning myself, all through IT. Sometimes the project manager is surprised by how much the website can do for them. Turns out I'm not over-qualified. I'm exactly where I can do the most.
+But here, no one leads the way for you. Before I joined, the team had no plan for the website; they focused on the physical store and offline marketing, with little experience in online promotion. So now it's on me to spot the needs and act on them, doing the marketing, the product, the development, and the planning myself, all through IT. Sometimes the project manager is surprised by how much the website can do for them. Turns out I'm not over-qualified for this job. I'm exactly where I can do the most.
 
 I'll explain the details in the next part.
 
@@ -82,18 +82,18 @@ Here's what I've done or am doing now.
 
 ### Community Trust
 
-Trust matters more for a non-profit than for almost any other kind of business, because people need to believe in who you are before they give their time or money. A lot of that trust can be built on the website. A clear FAQ page, an About Us page, and a Meet the Team page all tell visitors who's behind the organisation and what it stands for. Each one quietly answers a question people would otherwise have to email and ask, and helps a first-time visitor understand the organisation in a minute.
+Trust matters more for a non-profit than for almost any other kind of business, because people need to believe in who you are before they give their time or money. A lot of that trust can be built on the website. A clear FAQ page, an About Us page, and a Meet the Team page all tell visitors who's behind the organisation and what it stands for. Each one quietly answers a question people would otherwise have to email and ask, and helps a first-time visitor understand the organisation in a minute. (There is actually one problem here. When I searched the organisation online, I found a post from seven months ago on Reddit: 'I walked passed there and I was kind of unclear if I would be supporting the Mission by buying from there or if I would be taking advantage of something for someone in need.' That's exactly the kind of question the website now answers.)
 
 Accessibility belongs here too. Adding a11y support isn't just a technical box to tick; it shows empathy for every kind of visitor and signals that the organisation cares about including everyone.
 
 ### The Marketing
 
-The team often attends markets and food festivals. At their booth, they hand out flyers and explain who they are to whoever stops by. It works, but it's slow and easy to lose track of. A single QR code can fold the whole thing into one flow: introduce the organisation, sign people up, and let them shop online, all from one scan. It is a small change, but it turns a flyer people lose into a path they can actually follow.
+The team often attends markets and food festivals. At their booth, they hand out flyers and explain who they are to whoever stops by. It works, but it's slow and easy to lose track of. A single QR code of a marketing page can fold the whole thing into one flow: introduce the organisation, sign people up, and let them shop online, all from one scan. It also brings a higher conversion rate than the traditional flyer.
 
 There's plenty more to connect up from here, like wiring Instagram through to Shopify so social posts become shoppable, and tightening the site's SEO so people can actually find the website in the first place.
 
 ## Summary
 
-A developer builds things well. A CTO decides what's worth building and keeps it pointed where the business is going. So don't box yourself into one role: step out, act like an owner, and you'll find there's far more you can do.
+A developer builds things well. A CTO decides what's worth building and keeps it pointed where the business is going. That shift in perspective is the best part of volunteering. So don't box yourself into one role: step out, act like an owner, and you'll find there's far more you can do.
 
 Finally, if you're in Auckland, drop in at HomeGround or Albert Park to say hi, and keep an eye out for us at the Auckland Food Show in July.
