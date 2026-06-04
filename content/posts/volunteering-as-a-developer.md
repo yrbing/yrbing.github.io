@@ -20,6 +20,12 @@ I used to think this experience would be just like one of my previous jobs, but 
 
 Now I'd like to share the things I've touched and found interesting or useful.
 
+## It Started with a Box of Strawberries
+
+But first, how I got here, because it still feels like fate ✨. When I first arrived in Auckland, I passed by the Mission Grocer pop-up at Albert Park and bought a small box of kiwifruit 🥝 and strawberries 🍓. The prices were well below the supermarkets', and I was curious about the reason, so I googled them and found out they were a charity. I read through their website and noticed some outdated information: it listed the opening days as Tuesday and Wednesday, but I'd walked in on a Thursday.
+
+That felt like something I could help with. I'd done volunteer work a few times back home and admire what charities like theirs do, so I emailed them with my proposal. As someone new to the city, I also hoped it would be a way to make friends and feel more connected here. Two months later, here I am.
+
 ## Build a Workflow You Can Trust
 
 The first thing you need to figure out is an engineering workflow that can structure how you work with others. For a developer, that's a Dev-Review-Release lifecycle, equipped with reliable rollback strategies to ensure zero production downtime.
