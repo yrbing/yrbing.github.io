@@ -6,7 +6,7 @@ tags: ['Shopify', 'Liquid', 'Volunteering', 'Career']
 categories: ['Career']
 
 cover:
-  image: 'images/cover-mission-grocer-homepage.png'
+  image: 'images/cover-missiongrocer-homepage.png'
   alt: 'Mission Grocer Homepage'
 ---
 
@@ -14,9 +14,9 @@ cover:
 
 For the past two months I've volunteered as a developer for Mission Grocer, a non-profit that makes fresh, healthy food accessible to everyone. My main job is to build the storefront and help staff make better use of their Shopify Admin.
 
-I hadn't had any experience with Shopify or any templating language before (except for this blog), and I found it wasn't an issue. Programming languages are similar enough, as long as you understand how a website works from top to bottom.
+I hadn't had any experience with Shopify or any templating language before (except for this blog), and I found it wasn't an issue. Programming languages are similar enough, as long as you understand how a website works from top to bottom, and that's something years of full-stack work had already taught me.
 
-I used to think this experience would be just like one of my previous jobs, but it isn't. Before this, I mostly worked with other developers and was mostly responsible for the front-end parts of a business. Now I've developed a comprehensive perspective on the whole business, and my role is kind of like a CTO (yes, I gave myself the title). This is something new after my years as a developer in big companies, and I really think it changes the way I work.
+I used to think this experience would be just like one of my previous jobs, but it isn't. Before this, I mostly worked with other developers and was mostly responsible for the front-end parts of a business. Now I've developed a comprehensive perspective on the whole business, and my role is kind of like a CTO (yes, I gave myself the title). This is something new after my years as a developer in big companies, and I think it's made me more proactive and creative in how I work.
 
 Now I'd like to share the things I've touched and found interesting or useful.
 
@@ -30,7 +30,7 @@ That felt like something I could help with. I'd done volunteer work a few times 
 
 The first thing you need to figure out is an engineering workflow that can structure how you work with others. For a developer, that's a Dev-Review-Release lifecycle, equipped with reliable rollback strategies to ensure zero production downtime.
 
-Many small businesses use e-commerce platforms like Shopify. It's important to integrate your workflow with them. Shopify has an online code editor, but you don't want to crash the live site where everyone can see it, so a local environment is essential. To build an integrated business map, Shopify offers a Partner ecosystem and a kit of collaboration tools. The first one is a development tool called the Shopify CLI. You can use it to pull the codebase down to local, test locally with online store data, and push changes to the Online Store drafts.
+Many small businesses use e-commerce platforms like Shopify. It's important to integrate your workflow with them. Shopify has an online code editor, but you don't want to crash the live site where everyone can see it, so a local development and testing environment is essential. Shopify's Partner ecosystem gives you a kit of collaboration tools for this, and the one I lean on is the Shopify CLI: it pulls the codebase down to local, lets you test locally with online store data, and pushes changes to the Online Store drafts.
 
 The whole workflow is this: you develop and test locally, and when it's ready, you push to an Online Store draft. After others review it, you push it live. Keep the prior versions as drafts, so you can go back to them at any time.
 
@@ -54,7 +54,7 @@ Even if you're the only developer here, you still need to track every release an
 
 To keep things as simple as possible, I started by running Git only on my local codebase, just to track my own changes. The Git side stays entirely with me. No premature optimisation needed.
 
-Git tracks every change to the code on my machine. When a version is ready to release, I push it as a new theme to Shopify's drafts list, which comes for free and doubles as the live version history.
+Git tracks every change to the code on my machine. One rule I never break: always push to a draft, never straight to the live theme. When a version is ready to release, I push it as a new theme to Shopify's drafts list, which comes for free and doubles as the live version history."
 
 The one thing that nagged at me was whether someone had changed the live version without me knowing. To stay safe, I pull the live version before I push my own, so I never overwrite a change I didn't make. It works, but it leans on a lot of manual checking.
 
@@ -96,7 +96,7 @@ Accessibility belongs here too. Adding a11y support isn't just a technical box t
 
 The team often attends markets and food festivals. At their booth, they hand out flyers and explain who they are to whoever stops by. It works, but it's slow and easy to lose track of. A single QR code of a marketing page can fold the whole thing into one flow: introduce the organisation, sign people up, and let them shop online, all from one scan. It also brings a higher conversion rate than the traditional flyer.
 
-There's plenty more to connect up from here, like wiring Instagram through to Shopify so social posts become shoppable, and tightening the site's SEO so people can actually find the website in the first place.
+There's plenty more to connect up from here, like wiring Instagram through to Shopify so social posts become shoppable, tightening the site's SEO so people can actually find the website in the first place, and maybe exploring agentic storefronts so people can buy directly through AI tools.
 
 ## Summary
 
