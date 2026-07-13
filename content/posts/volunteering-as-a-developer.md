@@ -54,7 +54,7 @@ Even if you're the only developer here, you still need to track every release an
 
 To keep things as simple as possible, I started by running Git only on my local codebase, just to track my own changes. The Git side stays entirely with me. No premature optimisation needed.
 
-Git tracks every change to the code on my machine. One rule I never break: always push to a draft, never straight to the live theme. When a version is ready to release, I push it as a new theme to Shopify's drafts list, which comes for free and doubles as the live version history."
+Git tracks every change to the code on my machine. One rule I never break: always push to a draft, never straight to the live theme. When a version is ready to release, I push it as a new theme to Shopify's drafts list, which comes for free and doubles as the live version history.
 
 The one thing that nagged at me was whether someone had changed the live version without me knowing. To stay safe, I pull the live version before I push my own, so I never overwrite a change I didn't make. It works, but it leans on a lot of manual checking.
 
@@ -100,6 +100,6 @@ There's plenty more to connect up from here, like wiring Instagram through to Sh
 
 ## Summary
 
-A developer builds things well. A CTO decides what's worth building and keeps it pointed where the business is going. That shift in perspective is the best part of volunteering. So don't box yourself into one role: step out, act like an owner, and you'll find there's far more you can do.
+A developer builds things well. A CTO decides what's worth building and keeps it pointed where the mission is going. That shift in perspective is the best part of volunteering. So don't box yourself into one role: step out, act like an owner, and you'll find there's far more you can do.
 
 Finally, if you're in Auckland, drop in at HomeGround or Albert Park to say hi, and keep an eye out for us at the Auckland Food Show in July.
