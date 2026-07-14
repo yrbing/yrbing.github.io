@@ -75,11 +75,12 @@ _Mar 2026 – Present_ | [missiongrocer.co.nz](https://www.missiongrocer.co.nz/)
 
 _Modernised Mission Grocer's Shopify e-commerce infrastructure (Liquid, custom JS/CSS, Shopify CLI), driving end-to-end digital transformation._
 
-- **Cross-functional Strategy:** Partnered with the Project Manager in weekly strategy sessions, translating community needs into technical solutions and resolving operational bottlenecks.
+- **Cross-functional Strategy:** Partnered with the Project Manager via weekly written updates and face-to-face reviews, translating community needs into technical solutions.
 - **Engineering Workflow:** Established the organisation's first engineering workflow from scratch, introducing a structured Dev-Review-Release lifecycle with reliable rollback strategies to ensure zero production downtime.
 - **AI-Assisted Delivery:** Leveraged AI-assisted development tools, including **Claude Design** and **Claude Code**, to accelerate feature delivery and maintain code quality.
 - **Information Architecture:** Identified a gap in the initial site architecture; proposed, designed, and shipped the About Us, Meet the Team, and FAQ pages to build local community trust and transparency.
 - **CRM Migration:** Migrated legacy customer data to Shopify Admin CRM, eliminating manual email collection bottlenecks and unlocking data-driven, personalised lifecycle marketing campaigns.
+- **Event Marketing:** Built end-to-end event marketing infrastructure (pre-event landing page, on-site QR sign-up, post-event thank-you email) for the Auckland Food Show, enabling per-event conversion tracking and segmented customer follow-up.
 
 ### **Senior Full-Stack Engineer** | ByteDance
 
