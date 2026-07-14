@@ -1,6 +1,6 @@
 [
   {
-    "name": "front-end",
+    "name": "Full-Stack",
     "value": 15
   },
   {
@@ -16,11 +16,15 @@
     "value": 10
   },
   {
-    "name": "Css",
+    "name": "CSS",
     "value": 8
   },
   {
-    "name": "Html",
+    "name": "Front-End",
+    "value": 8
+  },
+  {
+    "name": "HTML",
     "value": 7
   },
   {
@@ -124,6 +128,18 @@
     "value": 3
   },
   {
+    "name": "Vitest",
+    "value": 3
+  },
+  {
+    "name": "React Testing Library",
+    "value": 3
+  },
+  {
+    "name": "Playwright",
+    "value": 3
+  },
+  {
     "name": "Photography",
     "value": 3
   },
@@ -197,6 +213,10 @@
   },
   {
     "name": "Docker",
+    "value": 3
+  },
+  {
+    "name": "Kubernetes",
     "value": 3
   },
   {

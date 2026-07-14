@@ -7,7 +7,7 @@ layout: 'page'
 
 **Hi, I'm Robin 👋**
 
-I'm a **Senior Front-end Engineer** with 7+ years of experience. What I love most about this craft is using technology to bring a little more joy, ease, warmth, and delight into people's lives.
+I'm a **Senior Full-Stack Engineer** with 7+ years of experience. What I love most about this craft is using technology to bring a little more joy, ease, warmth, and delight into people's lives.
 
 **🎨 Beyond the Editor**
 
@@ -50,21 +50,22 @@ A couple of projects I've built end-to-end, just for fun.
 
 # Robin Yang
 
-**Senior Front-end Engineer**  
+**Senior Full-Stack Engineer**  
 📍 Auckland, New Zealand
 
 ## 🚀 Summary
 
-Senior Front-end Engineer with **7+ years** of experience at global tech leaders including **ByteDance (TikTok)** and **Xiaomi**. **5 of those years** were spent building hybrid mobile applications across mobile web/H5, WeChat mini-apps, and React Native. Specialise in architecting high-performance web applications across the **React ecosystem**, with a strong focus on seamless **UI/UX implementation** 🎨 and platform-scale delivery. Now based in **Auckland** and contributing locally through Auckland City Mission while seeking the next senior role in New Zealand's tech sector.
+Senior Full-Stack Engineer with **7+ years** of experience at global tech leaders including **ByteDance (TikTok)** and **Xiaomi**. **5 of those years** were spent building hybrid mobile applications across mobile web/H5, WeChat mini-apps, and React Native. Specialise in architecting full-stack web applications across the **React and Node.js ecosystem**, from GraphQL/REST API design 🔧 to high-performance **UI/UX delivery** 🎨, with a strong focus on platform-scale systems. Now based in **Auckland** and contributing locally through Auckland City Mission while seeking the next senior role in New Zealand's tech sector.
 
 ## 🛠 Technical Skills
 
 - **Languages:** TypeScript, JavaScript (ES6+), HTML5, CSS3 (SCSS, Tailwind CSS, styled-components)
 - **Frameworks & Libraries:** React (Hooks, Context, Router), Next.js, Redux, Zustand, TanStack Query
-- **Engineering & DevOps:** Webpack, Vite, CI/CD (GitLab CI/CD, GitHub Actions), Git Flow, Jest, Docker
+- **Engineering & DevOps:** Webpack, Vite, CI/CD (GitLab CI/CD, GitHub Actions), Git Flow, Jest, Docker, Kubernetes
 - **Performance:** Core Web Vitals, Chrome DevTools, Bundle Optimization, Code Splitting
 - **Cross-Platform & Mobile:** Hybrid App, JSBridge, React Native, WebView, Mobile Responsive Design
-- **Backend & Collaboration:** Node.js, GraphQL, RESTful APIs, MongoDB, Express/Koa, WebSocket
+- **Backend:** Node.js, Express/Koa, GraphQL, RESTful APIs, WebSocket
+- **Databases:** MongoDB
 
 ## 💼 Professional Experience
 
@@ -80,19 +81,20 @@ _Modernised Mission Grocer's Shopify e-commerce infrastructure (Liquid, custom J
 - **Information Architecture:** Identified a gap in the initial site architecture; proposed, designed, and shipped the About Us, Meet the Team, and FAQ pages to build local community trust and transparency.
 - **CRM Migration:** Migrated legacy customer data to Shopify Admin CRM, eliminating manual email collection bottlenecks and unlocking data-driven, personalised lifecycle marketing campaigns.
 
-### **Senior Front-end Engineer** | ByteDance
+### **Senior Full-Stack Engineer** | ByteDance
 
 _Aug 2022 – Aug 2023_
 
-_Led front-end architecture, UI/UX strategy, and system delivery for Volcengine's enterprise-grade PaaS product, the **Distributed Cloud Native Platform (DCP)**, commercialising ByteDance's cloud-native infrastructure for global B2B clients._
+_Led full-stack architecture and delivery for Volcengine's **Distributed Cloud Native Platform (DCP)**, an enterprise PaaS product commercialising ByteDance's cloud-native infrastructure for global B2B clients._
 
-- **Architecture Leadership:** Appointed Front-end Lead for the DCP Proof of Concept; architected a unified, multi-tenant enterprise management console using **React**, **TypeScript**, and **Node.js**.
-- **GraphQL Stack:** Designed the full GraphQL stack, including a Node.js/Apollo Server gateway that aggregates multi-tenant infrastructure metrics across backend services and an Apollo Client cache layer on the front end, cutting dashboard load latency and eliminating redundant REST round-trips.
+- **Architecture Leadership:** Appointed Front-End Lead for the DCP Proof of Concept; architected a unified, multi-tenant enterprise management console using **React**, **TypeScript**, and **Node.js**.
+- **GraphQL Stack:** Designed the full GraphQL stack, including a Node.js/Apollo Server gateway aggregating multi-tenant infrastructure metrics across backend services, and an Apollo Client cache layer on the front end that cut dashboard load latency and eliminated redundant REST round-trips.
 - **Multi-Cloud Delivery:** Built adaptable front-end interfaces supporting public, private, and hybrid cloud deployment models, integrating cleanly with backend CI/CD pipelines.
+- **Kubernetes Console:** Built the front-end for unified multi-cluster Kubernetes management, covering cluster onboarding (VKE, third-party public cloud, on-prem IDC) and full lifecycle operations such as creation, deletion, and node scaling.
 
 _Apr 2019 – Aug 2022_
 
-_Led front-end engineering for Douyin Consumer Finance's in-app hybrid experience (WebView inside the Douyin native shell), serving **10M+ DAU**._
+_Led full-stack engineering for Douyin Consumer Finance's in-app hybrid experience (WebView inside the Douyin native shell), serving **10M+ DAU**._
 
 - **Cross-Platform SDK:** Architected a unified **JSBridge SDK** for H5, ensuring 100% UI consistency in key functions and a 40% gain in development efficiency.
 - **Architecture Migration:** Spearheaded the legacy migration from **Vue.js** to **React + TypeScript**, boosting feature iteration speed by 35%.
@@ -101,7 +103,7 @@ _Led front-end engineering for Douyin Consumer Finance's in-app hybrid experienc
 - **Standardisation:** Architected a centralised internal **UI library** in React and SCSS, translating high-fidelity Figma designs into reusable components and ensuring design consistency across 5+ core products.
 - **Team Leadership:** Mentored 5+ junior-to-mid developers and established a standardised end-to-end front-end workflow encompassing **RFCs**, **Code Reviews**, and automated CI/CD deployment; consistently earned top-tier performance ratings.
 
-### **Front-end Engineer** | Xiaomi (Beijing)
+### **Front-End Engineer** | Xiaomi (Beijing)
 
 _Apr 2016 – Apr 2019_
 
