@@ -44,7 +44,7 @@ There's something warm about doing it the traditional way, chatting with a staff
 
 Soon we had QR codes popping up everywhere: the front window of the store, the inside cover of the recipe book, even tabletop standees at events. Each one needed its own link with its own UTM parameters, and I realized we badly needed a tool for this. So I built a simple tool page for the team, where anyone can grab a link or a QR code for whichever page they need, whether that's for a market stall, a flyer, or a social media post.
 
-![Mission Grocer's tool page for generating a campaign URL and QR code for each page](images/screenshot-tools.png)
+![Mission Grocer's tool page for generating a campaign URL and QR code for each page](images/screenshot-missiongrocer-tools.png)
 
 ## The People Who Come Here Matter a Lot
 
@@ -87,6 +87,8 @@ My first real opportunity to do this is the Auckland Food Show coming up in July
 The idea is simple:
 
 Before the event, we build a landing page to promote the stall, and add an Instagram countdown or story tag to build interest before people even show up in person.
+
+![Mission Grocer's landing page for the Auckland Food Show 2026, with stand details, show times, and a call to action to join the food community](images/screenshot-missiongrocer-landing.png)
 
 At the event, people scan a QR code at the stand and land on a page inviting them to join the food community. To make sure people actually notice it, we also make a printed sign with the QR code that sits right at the front of the stall. When people join, they get a friendly welcome email with a discount or gift as a thank-you, and hopefully, we'll hear from them again down the road.
 
