@@ -42,6 +42,10 @@ That felt like something worth fixing. If someone walks past the stand and wants
 
 There's something warm about doing it the traditional way, chatting with a staff member or filling out a form by hand. But these days, having a digital option too just makes things easier. A QR code that leads somewhere useful could change that whole moment.
 
+Soon we had QR codes popping up everywhere: the front window of the store, the inside cover of the recipe book, even tabletop standees at events. Each one needed its own link with its own UTM parameters, and I realized we badly needed a tool for this. So I built a simple tool page for the team, where anyone can grab a link or a QR code for whichever page they need, whether that's for a market stall, a flyer, or a social media post.
+
+![Mission Grocer's tool page for generating a campaign URL and QR code for each page](images/screenshot-tools.png)
+
 ## The People Who Come Here Matter a Lot
 
 Besides listening to the team, listening to the people who come here matters just as much, too.
