@@ -118,6 +118,8 @@ _Apr 2016 – Apr 2019_
 
 **Beijing University of Posts and Telecommunications (BUPT)**
 
+_Recognised internationally as a top institution for computer science research._
+
 - **Master of Software Engineering**
 - **Bachelor of Software Engineering**
 
