@@ -10,3 +10,6 @@
 
 # ignore all files in any directory named build
 public/
+
+# personal/private notes, never published
+private/

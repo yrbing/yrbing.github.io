@@ -61,7 +61,8 @@ Senior Full-Stack Engineer with **7+ years** of experience at global tech leader
 
 - **Languages:** TypeScript, JavaScript (ES6+), HTML5, CSS3 (SCSS, Tailwind CSS, styled-components)
 - **Frameworks & Libraries:** React (Hooks, Context, Router), Next.js, Redux, Zustand, TanStack Query
-- **Engineering & DevOps:** Webpack, Vite, CI/CD (GitLab CI/CD, GitHub Actions), Git Flow, Jest, Docker, Kubernetes
+- **Engineering & DevOps:** Webpack, Vite, CI/CD (GitLab CI/CD, GitHub Actions), Git Flow, Docker
+- **Testing:** Jest, Vitest, React Testing Library, Playwright
 - **Performance:** Core Web Vitals, Chrome DevTools, Bundle Optimization, Code Splitting
 - **Cross-Platform & Mobile:** Hybrid App, JSBridge, React Native, WebView, Mobile Responsive Design
 - **Backend:** Node.js, Express/Koa, GraphQL, RESTful APIs, WebSocket
@@ -71,7 +72,7 @@ Senior Full-Stack Engineer with **7+ years** of experience at global tech leader
 
 ### **Volunteer Software Engineer** | Auckland City Mission
 
-_Mar 2026 – Present_ | [missiongrocer.co.nz](https://www.missiongrocer.co.nz/)
+_Apr 2026 – Present_ | [missiongrocer.co.nz](https://www.missiongrocer.co.nz/)
 
 _Modernised Mission Grocer's Shopify e-commerce infrastructure (Liquid, custom JS/CSS, Shopify CLI), driving end-to-end digital transformation._
 
