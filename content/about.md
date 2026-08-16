@@ -69,6 +69,7 @@ Senior Full-Stack Engineer with **7+ years** of experience at global tech leader
 - **Cross-Platform & Mobile:** Hybrid App, JSBridge, React Native, WebView, Mobile Responsive Design
 - **Backend:** Node.js, Express/Koa, GraphQL, RESTful APIs, WebSocket
 - **Databases:** MongoDB
+- **Leadership & Collaboration:** Mentoring, Cross-functional Collaboration, Team Communication, Problem-Solving, Workflow Organisation, Technical Leadership, Code Review
 
 ## 💼 Professional Experience
 
@@ -80,7 +81,7 @@ _Volunteer Software Engineer_
 - **Digital Transformation:** Modernised Mission Grocer's Shopify e-commerce infrastructure using Liquid, custom JS/CSS, and Shopify CLI, driving end-to-end digital transformation. Closed a gap in the site's information architecture by designing and shipping the About Us, Meet the Team, and FAQ pages.
 - **Engineering Workflow:** Established the organisation's first engineering workflow from scratch, introducing a structured Dev-Review-Release lifecycle with reliable rollback strategies to ensure zero production downtime.
 - **AI-Assisted Delivery:** Leveraged AI-assisted development tools, including **Claude Design** and **Claude Code**, to accelerate feature delivery and maintain code quality.
-- **Event Marketing:** Worked closely with the Project Manager to ship full-cycle event marketing infrastructure (pre-event landing page, on-site QR sign-up, post-event thank-you email) for the Auckland Food Show, enabling per-event conversion tracking and unlocking data-driven, personalised lifecycle marketing campaigns.
+- **Event Marketing:** Worked closely with the Project Manager to ship full-cycle event marketing infrastructure for the Auckland Food Show. This included a pre-event landing page, on-site QR sign-up, and post-event thank-you email. The result: per-event conversion tracking and data-driven, personalised lifecycle marketing campaigns.
 
 ### TikTok
 _Senior Full-Stack Engineer_
@@ -90,20 +91,20 @@ _Senior Full-Stack Engineer_
 - **Team Leadership:** Led a team of 5 front-end engineers to deliver Douyin Consumer Finance's in-app hybrid experience, integrating iOS, Android and backend, serving **10M+ DAU**.
 - **Architecture Migration:** Spearheaded the legacy migration from **Vue.js** to **React + TypeScript**, boosting feature iteration speed by 35%.
 - **Cross-Platform SDK:** Architected a unified **JSBridge SDK** for H5, ensuring 100% UI consistency in key functions and a 40% gain in development efficiency.
-- **Performance Optimization:** Optimised First Contentful Paint (FCP) through bundle analysis, code splitting, and tree shaking, and cut initial load time by 40% with Service Workers and HTTP caching.
+- **Performance Optimization:** Optimised First Contentful Paint (FCP) through bundle analysis, code splitting, and tree shaking. Cut initial load time by 40% with Service Workers and HTTP caching.
 - **Infrastructure:** Built a Node.js production monitoring system with real-time error tracking and anomaly detection on key platform metrics, reducing MTTR by 60%.
 - **Component Library:** Developed and scaled a shared **React**/**SCSS** component library, translating **Figma** specs into reusable components and expanding adoption across 5+ core products.
 - **Mentorship:** Mentored 5+ junior-to-mid developers and established a standardised front-end workflow encompassing **RFCs**, **Code Reviews**, and automated CI/CD deployment.
-- **Platform Delivery:** Led a team to ship Volcengine's Multi-Cloud Kubernetes Cluster Management PaaS product within 6 months, architecting a multi-tenant, micro-frontend app with a full **GraphQL/Apollo** stack across public, private, and hybrid cloud, cutting dashboard latency and eliminating redundant REST calls.
+- **Platform Delivery:** Directed a team to ship Volcengine's Multi-Cloud Kubernetes Cluster Management PaaS product within 6 months. Designed a multi-tenant, micro-frontend app with a full **GraphQL/Apollo** stack across public, private, and hybrid cloud. This lowered dashboard latency and eliminated redundant REST calls.
 
 ### Xiaomi
 _Front-end Engineer_
 
 📅 Apr 2016 – Apr 2019
 
-- **React Native Apps:** Core developer for Xiaomi's iOS and Android e-commerce apps in **React Native**, architecting core modules including Product Details, Reviews, and Order Lists, delivering native-level performance and consistent UI across platforms.
-- **Campaign Engineering:** Built a game-themed promotional page for Xiaomi using CSS animations, featuring interactive mechanics such as falling-packet clicks and card-flip reveals for voucher redemption, optimised for performance under high-traffic campaign load.
-- **Internal Platform:** Developed an internal platform for the Product and Marketing teams, used by digital operations specialists to manage product listings, campaign content, price adjustments, and marketing campaign configurations.
+- **React Native Apps:** Core developer for Xiaomi's iOS and Android e-commerce apps in **React Native**, structuring core modules including Product Details, Reviews, and Order Lists. Maintained native-level performance and consistent UI across platforms.
+- **Campaign Engineering:** Engineered a game-themed promotional page for Xiaomi using CSS animations, featuring interactive mechanics such as falling-packet clicks and card-flip reveals for voucher redemption. Tuned for performance under high-traffic campaign load.
+- **Internal Platform:** Delivered an internal platform for the Product and Marketing teams. Digital operations specialists used it to manage product listings, campaign content, price adjustments, and marketing campaign configurations.
 
 ## 🎓 Education
 
