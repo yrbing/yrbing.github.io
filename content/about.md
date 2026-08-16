@@ -55,13 +55,15 @@ A couple of projects I've built end-to-end, just for fun.
 
 ## 🚀 Summary
 
-Senior Full-Stack Engineer with **7+ years** of experience at global tech leaders including **ByteDance (TikTok)** and **Xiaomi**. **5 of those years** were spent building hybrid mobile applications across mobile web/H5, WeChat mini-apps, and React Native. Specialise in architecting full-stack web applications across the **React and Node.js ecosystem**, from GraphQL/REST API design 🔧 to high-performance **UI/UX delivery** 🎨, with a strong focus on platform-scale systems. Now based in **Auckland** and contributing locally through Auckland City Mission while seeking the next senior role in New Zealand's tech sector.
+Senior Full-Stack Engineer with **7+ years** of experience at global tech leaders including **ByteDance (TikTok)** and **Xiaomi**. **5 of those years** were spent building hybrid mobile applications across mobile web/H5, WeChat mini-apps, and React Native. Specialise in architecting full-stack web applications and cloud-native platforms across the **React and Node.js ecosystem**, from GraphQL/REST API design 🔧 to high-performance **UI/UX delivery** 🎨. Strong focus on platform-scale systems and AI-assisted development practices. Now based in **Auckland** and contributing locally through Auckland City Mission while seeking the next senior role in New Zealand's tech sector.
 
 ## 🛠 Technical Skills
 
 - **Languages:** TypeScript, JavaScript (ES6+), HTML5, CSS3 (SCSS, Tailwind CSS, styled-components)
 - **Frameworks & Libraries:** React (Hooks, Context, Router), Next.js, Redux, Zustand, TanStack Query
-- **Engineering & DevOps:** Webpack, Vite, CI/CD (GitLab CI/CD, GitHub Actions), Git Flow, Docker
+- **Engineering & DevOps:** Webpack, Vite, CI/CD (GitLab CI/CD, GitHub Actions), Git Flow, Docker, Kubernetes
+- **Cloud & Platform Engineering:** Cloud-native architecture (public/private/hybrid, multi-cloud), PaaS platform design, Kubernetes (multi-cluster management)
+- **AI-Assisted Development:** Claude Code, Claude Design
 - **Testing:** Jest, Vitest, React Testing Library, Playwright
 - **Performance:** Core Web Vitals, Chrome DevTools, Bundle Optimization, Code Splitting
 - **Cross-Platform & Mobile:** Hybrid App, JSBridge, React Native, WebView, Mobile Responsive Design
@@ -70,58 +72,46 @@ Senior Full-Stack Engineer with **7+ years** of experience at global tech leader
 
 ## 💼 Professional Experience
 
-### **Volunteer Software Engineer** | Auckland City Mission
+### Auckland City Mission
+_Volunteer Software Engineer_
 
-_Apr 2026 – Present_ | [missiongrocer.co.nz](https://www.missiongrocer.co.nz/)
+📅 Apr 2026 – Present · [missiongrocer.co.nz](https://www.missiongrocer.co.nz/)
 
-_Modernised Mission Grocer's Shopify e-commerce infrastructure (Liquid, custom JS/CSS, Shopify CLI), driving end-to-end digital transformation._
-
-- **Cross-functional Strategy:** Partnered with the Project Manager via weekly written updates and face-to-face reviews, translating community needs into technical solutions.
+- **Digital Transformation:** Modernised Mission Grocer's Shopify e-commerce infrastructure using Liquid, custom JS/CSS, and Shopify CLI, driving end-to-end digital transformation. Closed a gap in the site's information architecture by designing and shipping the About Us, Meet the Team, and FAQ pages.
 - **Engineering Workflow:** Established the organisation's first engineering workflow from scratch, introducing a structured Dev-Review-Release lifecycle with reliable rollback strategies to ensure zero production downtime.
 - **AI-Assisted Delivery:** Leveraged AI-assisted development tools, including **Claude Design** and **Claude Code**, to accelerate feature delivery and maintain code quality.
-- **Information Architecture:** Identified a gap in the initial site architecture; proposed, designed, and shipped the About Us, Meet the Team, and FAQ pages to build local community trust and transparency.
-- **CRM Migration:** Migrated legacy customer data to Shopify Admin CRM, eliminating manual email collection bottlenecks and unlocking data-driven, personalised lifecycle marketing campaigns.
-- **Event Marketing:** Built end-to-end event marketing infrastructure (pre-event landing page, on-site QR sign-up, post-event thank-you email) for the Auckland Food Show, enabling per-event conversion tracking and segmented customer follow-up.
+- **Event Marketing:** Worked closely with the Project Manager to ship full-cycle event marketing infrastructure (pre-event landing page, on-site QR sign-up, post-event thank-you email) for the Auckland Food Show, enabling per-event conversion tracking and unlocking data-driven, personalised lifecycle marketing campaigns.
 
-### **Senior Full-Stack Engineer** | ByteDance
+### TikTok
+_Senior Full-Stack Engineer_
 
-_Aug 2022 – Aug 2023_
+📅 Apr 2019 – Aug 2023
 
-_Led full-stack architecture and delivery for Volcengine's **Distributed Cloud Native Platform (DCP)**, an enterprise PaaS product commercialising ByteDance's cloud-native infrastructure for global B2B clients._
-
-- **Architecture Leadership:** Appointed Front-End Lead for the DCP Proof of Concept; architected a unified, multi-tenant enterprise management console using **React**, **TypeScript**, and **Node.js**.
-- **GraphQL Stack:** Designed the full GraphQL stack, including a Node.js/Apollo Server gateway aggregating multi-tenant infrastructure metrics across backend services, and an Apollo Client cache layer on the front end that cut dashboard load latency and eliminated redundant REST round-trips.
-- **Multi-Cloud Delivery:** Built adaptable front-end interfaces supporting public, private, and hybrid cloud deployment models, integrating cleanly with backend CI/CD pipelines.
-- **Kubernetes Console:** Built the front-end for unified multi-cluster Kubernetes management, covering cluster onboarding (VKE, third-party public cloud, on-prem IDC) and full lifecycle operations such as creation, deletion, and node scaling.
-
-_Apr 2019 – Aug 2022_
-
-_Led full-stack engineering for Douyin Consumer Finance's in-app hybrid experience (WebView inside the Douyin native shell), serving **10M+ DAU**._
-
-- **Cross-Platform SDK:** Architected a unified **JSBridge SDK** for H5, ensuring 100% UI consistency in key functions and a 40% gain in development efficiency.
+- **Team Leadership:** Led a team of 5 front-end engineers to deliver Douyin Consumer Finance's in-app hybrid experience, integrating iOS, Android and backend, serving **10M+ DAU**.
 - **Architecture Migration:** Spearheaded the legacy migration from **Vue.js** to **React + TypeScript**, boosting feature iteration speed by 35%.
-- **Performance Optimization:** Optimised First Contentful Paint (FCP) through bundle analysis, code splitting, and tree shaking; combined with Service Workers and HTTP caching to cut initial load time by 40%.
+- **Cross-Platform SDK:** Architected a unified **JSBridge SDK** for H5, ensuring 100% UI consistency in key functions and a 40% gain in development efficiency.
+- **Performance Optimization:** Optimised First Contentful Paint (FCP) through bundle analysis, code splitting, and tree shaking, and cut initial load time by 40% with Service Workers and HTTP caching.
 - **Infrastructure:** Built a Node.js production monitoring system with real-time error tracking and anomaly detection on key platform metrics, reducing MTTR by 60%.
-- **Standardisation:** Architected a centralised internal **UI library** in React and SCSS, translating high-fidelity Figma designs into reusable components and ensuring design consistency across 5+ core products.
-- **Team Leadership:** Mentored 5+ junior-to-mid developers and established a standardised end-to-end front-end workflow encompassing **RFCs**, **Code Reviews**, and automated CI/CD deployment; consistently earned top-tier performance ratings.
+- **Component Library:** Developed and scaled a shared **React**/**SCSS** component library, translating **Figma** specs into reusable components and expanding adoption across 5+ core products.
+- **Mentorship:** Mentored 5+ junior-to-mid developers and established a standardised front-end workflow encompassing **RFCs**, **Code Reviews**, and automated CI/CD deployment.
+- **Platform Delivery:** Led a team to ship Volcengine's Multi-Cloud Kubernetes Cluster Management PaaS product within 6 months, architecting a multi-tenant, micro-frontend app with a full **GraphQL/Apollo** stack across public, private, and hybrid cloud, cutting dashboard latency and eliminating redundant REST calls.
 
-### **Front-End Engineer** | Xiaomi (Beijing)
+### Xiaomi
+_Front-end Engineer_
 
-_Apr 2016 – Apr 2019_
+📅 Apr 2016 – Apr 2019
 
-- **Cloud Infrastructure:** Core developer for **Xiaomi EcoCloud**, delivering critical management tools and modernising legacy front-end architectures for a B2B cloud computing platform tailored to Xiaomi ecosystem companies.
-- **Architecture Modernisation:** Led the structural transition from **AngularJS** to **React**, implementing modular patterns and refactoring core architectures to reduce long-term maintenance overhead; upgraded the build pipeline from Gulp to **Webpack**.
-- **React Native Apps:** Core developer for **Xiaomi Youpin's** iOS and Android apps in **React Native**; architected core modules including Product Details, Reviews, and Order Lists, delivering native-level performance and consistent UI across platforms.
-- **Mini-Apps:** Engineered lightweight cross-platform mini-apps (WeChat's in-app application ecosystem) using **Taro**, building high-traffic e-commerce campaign pages optimised for fast load and conversion.
+- **React Native Apps:** Core developer for Xiaomi's iOS and Android e-commerce apps in **React Native**, architecting core modules including Product Details, Reviews, and Order Lists, delivering native-level performance and consistent UI across platforms.
+- **Campaign Engineering:** Built a game-themed promotional page for Xiaomi using CSS animations, featuring interactive mechanics such as falling-packet clicks and card-flip reveals for voucher redemption, optimised for performance under high-traffic campaign load.
+- **Internal Platform:** Developed an internal platform for the Product and Marketing teams, used by digital operations specialists to manage product listings, campaign content, price adjustments, and marketing campaign configurations.
 
 ## 🎓 Education
 
-**Beijing University of Posts and Telecommunications (BUPT)**
-
+### Beijing University of Posts and Telecommunications (BUPT)
 _Recognised internationally as a top institution for computer science research._
 
-- **Master of Software Engineering**
-- **Bachelor of Software Engineering**
+- **Master of Software Engineering** · 📅 Sep 2013 – Mar 2016
+- **Bachelor of Software Engineering** · 📅 Sep 2009 – Jul 2013
 
 ## 🌐 Languages
 
