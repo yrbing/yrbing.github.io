@@ -13,3 +13,6 @@ public/
 
 # personal/private notes, never published
 private/
+
+# Claude Code local config
+.claude/

@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" font-family="'Courier New', monospace">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#fff1e8"/>
+    </marker>
+    <marker id="arrowDim" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8f8fa8"/>
+    </marker>
+  </defs>
+
+  <rect width="920" height="620" fill="#14182b"/>
+
+  <!-- lifelines -->
+  <line x1="120" y1="70" x2="120" y2="580" stroke="#2c3357" stroke-width="2"/>
+  <line x1="460" y1="70" x2="460" y2="580" stroke="#2c3357" stroke-width="2"/>
+  <line x1="800" y1="70" x2="800" y2="580" stroke="#2c3357" stroke-width="2"/>
+
+  <!-- actor boxes -->
+  <rect x="30" y="20" width="180" height="42" fill="#232946" stroke="#fff1e8" stroke-width="2"/>
+  <text x="120" y="46" fill="#ffec27" font-size="15" text-anchor="middle" font-weight="bold">CLIENT A (creator)</text>
+
+  <rect x="370" y="20" width="180" height="42" fill="#232946" stroke="#fff1e8" stroke-width="2"/>
+  <text x="460" y="46" fill="#fff1e8" font-size="15" text-anchor="middle" font-weight="bold">SERVER</text>
+
+  <rect x="710" y="20" width="180" height="42" fill="#232946" stroke="#fff1e8" stroke-width="2"/>
+  <text x="800" y="46" fill="#29adff" font-size="15" text-anchor="middle" font-weight="bold">CLIENT B (joiner)</text>
+
+  <!-- step 1: create -->
+  <line x1="120" y1="100" x2="452" y2="100" stroke="#fff1e8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="290" y="90" fill="#fff1e8" font-size="13" text-anchor="middle">{ type: 'create', color: 'white' }</text>
+
+  <!-- step 2: created -->
+  <line x1="460" y1="140" x2="128" y2="140" stroke="#00e436" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="290" y="130" fill="#00e436" font-size="13" text-anchor="middle">{ type: 'created', code: 'JT7H' }</text>
+
+  <rect x="60" y="155" width="120" height="30" fill="#0a0c16" stroke="#8f8fa8"/>
+  <text x="120" y="175" fill="#8f8fa8" font-size="12" text-anchor="middle">waiting…</text>
+
+  <!-- step 3: join -->
+  <line x1="800" y1="220" x2="468" y2="220" stroke="#29adff" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="630" y="210" fill="#29adff" font-size="13" text-anchor="middle">{ type: 'join', code: 'JT7H' }</text>
+
+  <!-- step 4+5: start x2 -->
+  <line x1="460" y1="260" x2="128" y2="260" stroke="#ff004d" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="290" y="250" fill="#ff004d" font-size="13" text-anchor="middle">{ type: 'start', color: 'white' }</text>
+
+  <line x1="460" y1="290" x2="792" y2="290" stroke="#ff004d" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="630" y="280" fill="#ff004d" font-size="13" text-anchor="middle">{ type: 'start', color: 'black' }</text>
+
+  <rect x="300" y="305" width="320" height="26" fill="#0a0c16" stroke="#8f8fa8"/>
+  <text x="460" y="323" fill="#8f8fa8" font-size="11" text-anchor="middle">room filled — GameBoard mounts on both sides</text>
+
+  <!-- divider -->
+  <line x1="40" y1="360" x2="880" y2="360" stroke="#2c3357" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="460" y="352" fill="#ffec27" font-size="12" text-anchor="middle">— gameplay: targeted relay, never broadcast —</text>
+
+  <!-- step 6: move from A -->
+  <line x1="120" y1="400" x2="452" y2="400" stroke="#fff1e8" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="290" y="390" fill="#fff1e8" font-size="13" text-anchor="middle">{ type: 'move', from: 'e2', to: 'e4' }</text>
+
+  <!-- step 7: move relayed to B only -->
+  <line x1="460" y1="440" x2="792" y2="440" stroke="#00e436" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="630" y="430" fill="#00e436" font-size="13" text-anchor="middle">{ type: 'move', from: 'e2', to: 'e4' }</text>
+
+  <text x="290" y="465" fill="#8f8fa8" font-size="12" text-anchor="middle" font-style="italic">(nothing sent back to Client A — no self-echo)</text>
+
+  <!-- step 8: opponent close -->
+  <line x1="800" y1="530" x2="800" y2="530" stroke="#2c3357"/>
+  <rect x="700" y="520" width="200" height="30" fill="#0a0c16" stroke="#ff004d"/>
+  <text x="800" y="540" fill="#ff004d" font-size="12" text-anchor="middle">socket closes</text>
+
+  <line x1="460" y1="565" x2="128" y2="565" stroke="#ff004d" stroke-width="2" marker-end="url(#arrow)"/>
+  <text x="290" y="558" fill="#ff004d" font-size="13" text-anchor="middle">{ type: 'opponentLeft' }</text>
+</svg>
